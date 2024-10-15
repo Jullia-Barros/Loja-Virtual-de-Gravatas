@@ -7,7 +7,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image:url();
+    /*background-image:url(https://img.freepik.com/vetores-premium/padrao-marrom-sem-costura-vetorial-com-bigodes-e-gravatas-fundo-hipster-masculino-padrao-de-moda_182787-692.jpg);
+    background-size: cover ;*/
+    background-color: rgb(255, 255, 255);
+    
     padding: 20px;
 }
 
@@ -15,14 +18,14 @@ h1 {
     text-align: center;
     font-size: 2em;
     margin: 20px 0;
-    color: #f5f5f7;
+    color: #000000;
 }
 
 /* Estilo para o título da promoção */
 .titulo-promocao {
     text-align: center;
     font-size: 2.5em;
-    color: #ffcc00;
+    color: #de113a;
     margin: 10px 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -31,14 +34,14 @@ h1 {
 .neon {
     font-family: 'Arial', sans-serif;
     font-size: 72px;
-    color: #060606;
+    color: #ffffff;
     text-shadow:
-        0 0 5px #fdfdfd,
-        0 0 10px #fffefe,
-        0 0 20px #fffefe,
-        0 0 40px #fffcfc,
-        0 0 80px #fffafa,
-        0 0 120px #fffbfb;
+        0 0 5px #060606,
+        0 0 10px #000000,
+        0 0 20px #040404,
+        0 0 40px #000000,
+        0 0 80px #000000,
+        0 0 120px #000000;
 }
 
 header {
@@ -146,7 +149,7 @@ header {
 .contato {
     text-align: center;
     margin-top: 20px;
-    color: #f5f5f7;
+    color: #000000;
 }
 
 /* Estilo para a aba de promoção */
