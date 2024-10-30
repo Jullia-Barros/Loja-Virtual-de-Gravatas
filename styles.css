@@ -7,10 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    /*background-image:url(https://img.freepik.com/vetores-premium/padrao-marrom-sem-costura-vetorial-com-bigodes-e-gravatas-fundo-hipster-masculino-padrao-de-moda_182787-692.jpg);
-    background-size: cover ;*/
     background-color: rgb(255, 255, 255);
-    
     padding: 20px;
 }
 
@@ -29,7 +26,6 @@ h1 {
     margin: 10px 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
-
 
 .neon {
     font-family: 'Arial', sans-serif;
@@ -63,14 +59,6 @@ header {
     position: absolute;
     top: 20px;
     right: 20px;
-}
-
-.hamburguer span {
-    background-color: rgb(255, 255, 255);
-    display: block;
-    height: 4px;
-    margin: 5px 0;
-    transition: 0.3s ease;
 }
 
 /* Estilo do menu */
@@ -110,39 +98,59 @@ header {
     color: #000000;
 }
 
-/* Contêiner para exibir gravatas */
 .scroll-container {
     display: flex;
-    overflow: hidden;
-    scroll-behavior: smooth;
+    overflow-x: hidden; /* Oculta a barra de rolagem */
     white-space: nowrap;
-    width: 100%;
+    gap: 35px;
+    user-select: none; /* Impede a seleção de texto */
 }
 
-/* Itens de gravata */
-.Gravatasseda, .Gravataspoliester {
-    display: inline-block;
-    background-color: white;
-    border: 1px solid #ccc;
-    margin: 10px;
-    padding: 10px;
+.gravata-item {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
     text-align: center;
-    width: 250px;
+    flex-shrink: 0;
 }
 
-.Gravatasseda img, .Gravataspoliester img {
+.gravata-item img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
+}
+
+.gravata-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.gravata-item p {
+    font-size: 1em;
+    color: #333;
 }
 
 .botao-whatsapp {
-    background-color: #25D366;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
     display: inline-block;
+    padding: 8px 12px;
     margin-top: 10px;
+    color: white;
+    background-color: #25d366;
+    border-radius: 5px;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.hamburguer span {
+    background: #333;
+    display: block;
+    height: 2px;
+    margin: 5px 0;
+    width: 25px;
 }
 
 /* Seção de Contato */
