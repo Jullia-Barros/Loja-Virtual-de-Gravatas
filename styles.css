@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-image: url('gravatas img - Copia/fundo.jpg'); /* Caminho da imagem de fundo */
     padding: 20px;
 }
 
