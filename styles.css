@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('gravatas img - Copia/pngtree-fathers-day-cute-tile-background-blue-image_683105.jpg'); /* Caminho da imagem de fundo */
+    background-color:#d3cfcf;
     padding: 20px;
 }
 
@@ -27,17 +27,18 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+
 .neon {
     font-family: 'Arial', sans-serif;
     font-size: 72px;
-    color: #ffffff;
-    text-shadow:
+    color: #000000;
+   /* text-shadow:
         0 0 5px #060606,
         0 0 10px #000000,
         0 0 20px #040404,
         0 0 40px #000000,
         0 0 80px #000000,
-        0 0 120px #000000;
+        0 0 120px #000000;*/
 }
 
 header {
@@ -81,7 +82,7 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: #fffdfd;
+    color: #000000;
     font-size: 1.2em;
     padding: 5px;
     border-radius: 5px;
@@ -106,12 +107,16 @@ header {
     user-select: none; /* Impede a seleção de texto */
 }
 
+/*#GravatasPoliester {
+
+}*/
+
 .gravata-item {
     width: 200px;
-    padding: 5px;
-    border: 2px solid #ccc;
+    padding: 5px;   
+    border: 1px solid #ffffff;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color:#cecbcb;
     text-align: center;
     flex-shrink: 0;
 }
@@ -123,9 +128,11 @@ header {
 }
 
 .gravata-item h2 {
-    font-size: 1.2em;
+    font-size: 0.9em;
     margin: 10px 0 5px;
+    overflow-wrap: break-word;
 }
+    
 
 .gravata-item p {
     font-size: 1em;
@@ -139,6 +146,7 @@ header {
     color: white;
     background-color: #25d366;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -170,4 +178,6 @@ header {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    width: 1200px;
+    height: 500px;
 }
