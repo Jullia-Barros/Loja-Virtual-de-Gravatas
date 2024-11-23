@@ -100,11 +100,10 @@ header {
 }
 
 .scroll-container {
-    display: flex;
-    overflow-x: hidden; /* Oculta a barra de rolagem */
-    white-space: nowrap;
-    gap: 35px;
-    user-select: none; /* Impede a seleção de texto */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px; /* Espaçamento interno */
 }
 
 /*#GravatasPoliester {
