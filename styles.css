@@ -32,13 +32,6 @@ h1 {
     font-family: 'Arial', sans-serif;
     font-size: 72px;
     color: #000000;
-   /* text-shadow:
-        0 0 5px #060606,
-        0 0 10px #000000,
-        0 0 20px #040404,
-        0 0 40px #000000,
-        0 0 80px #000000,
-        0 0 120px #000000;*/
 }
 
 header {
@@ -105,10 +98,6 @@ header {
     gap: 20px; /* Espaçamento entre os itens */
     padding: 20px; /* Espaçamento interno */
 }
-
-/*#GravatasPoliester {
-
-}*/
 
 .gravata-item {
     width: 200px;
