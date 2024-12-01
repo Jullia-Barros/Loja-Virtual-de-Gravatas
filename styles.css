@@ -120,6 +120,11 @@ header {
     text-align: center;
     flex-shrink: 0;
 }
+.gravata-item:hover{
+    background-color:#cac6c6;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
 
 .gravata-item img {
     width: 100%;
@@ -166,6 +171,10 @@ header {
     text-align: center;
     margin-top: 20px;
     color: #000000;
+}
+
+.contato p{
+    margin: 4px;
 }
 
 /* Estilo para a aba de promoção */
