@@ -32,13 +32,6 @@ h1 {
     font-family: 'Arial', sans-serif;
     font-size: 72px;
     color: #000000;
-   /* text-shadow:
-        0 0 5px #060606,
-        0 0 10px #000000,
-        0 0 20px #040404,
-        0 0 40px #000000,
-        0 0 80px #000000,
-        0 0 120px #000000;*/
 }
 
 header {
@@ -100,16 +93,11 @@ header {
 }
 
 .scroll-container {
-    display: flex;
-    overflow-x: hidden; /* Oculta a barra de rolagem */
-    white-space: nowrap;
-    gap: 35px;
-    user-select: none; /* Impede a seleção de texto */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px; /* Espaçamento interno */
 }
-
-/*#GravatasPoliester {
-
-}*/
 
 .gravata-item {
     width: 200px;
