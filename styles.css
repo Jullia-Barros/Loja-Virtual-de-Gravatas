@@ -38,6 +38,7 @@ header {
     text-align: center;
     margin-bottom: 20px;
     position: relative;
+    padding-top: 50px; /* Espaço extra para o menu */
 }
 
 /* Menu Hamburguer */
@@ -177,4 +178,75 @@ header {
     border-radius: 5px;
     width: 1200px;
     height: 500px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1, .titulo-promocao {
+        font-size: 1.5em; 
+    }
+
+    .neon {
+        font-size: 48px; 
+    }
+
+    .hamburguer {
+        top: 10px;
+        right: 10px;
+    }
+
+    #menu {
+        top: 50px;
+        right: 10px;
+        background-color: #d3cfcfec;
+        
+    }
+
+    .scroll-container {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+
+    .gravata-item {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .gravata-item img {
+        width: 100%; 
+    }
+
+    .imagem-promocao {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1, .titulo-promocao {
+        font-size: 1.2em;
+    }
+
+    .scroll-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .hamburguer {
+        width: 25px;
+        height: 20px;
+    }
+
+    .gravata-item h2 {
+        font-size: 0.8em;
+    }
+
+    .botao-whatsapp {
+        padding: 6px 10px;
+        font-size: 0.9em;
+    }
 }
